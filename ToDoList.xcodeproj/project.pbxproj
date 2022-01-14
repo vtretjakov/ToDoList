@@ -15,6 +15,18 @@
 		C47CA8712786DAC1008917E0 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47CA8702786DAC1008917E0 /* ToDo.swift */; };
 		C47CA87A2786E411008917E0 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47CA8792786E411008917E0 /* ToDoTableViewController.swift */; };
 		C47CA87C2786E429008917E0 /* ToDoItemTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47CA87B2786E429008917E0 /* ToDoItemTableViewController.swift */; };
+		C4826D8627886205008A39C1 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D8527886205008A39C1 /* ToDoCell.swift */; };
+		C4826D8927892E1B008A39C1 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D8827892E1B008A39C1 /* String+Extension.swift */; };
+		C4826D8B2789322F008A39C1 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D8A2789322F008A39C1 /* Date+Extension.swift */; };
+		C4826D8D278D6DEF008A39C1 /* TextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D8C278D6DEF008A39C1 /* TextFieldCell.swift */; };
+		C4826D8F278D7433008A39C1 /* SwitchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D8E278D7433008A39C1 /* SwitchCell.swift */; };
+		C4826D91278D746E008A39C1 /* DateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D90278D746E008A39C1 /* DateCell.swift */; };
+		C4826D93278D749E008A39C1 /* DatePickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D92278D749E008A39C1 /* DatePickerCell.swift */; };
+		C4826D97278D7606008A39C1 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D96278D7606008A39C1 /* ImageCell.swift */; };
+		C4826D9A27901120008A39C1 /* SectionDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D9927901120008A39C1 /* SectionDatePicker.swift */; };
+		C4826D9C27901235008A39C1 /* SectionImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D9B27901235008A39C1 /* SectionImagePickerController.swift */; };
+		C4826D9E27901383008A39C1 /* SectionSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D9D27901383008A39C1 /* SectionSwitch.swift */; };
+		C4826DA02790142B008A39C1 /* SectionTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4826D9F2790142B008A39C1 /* SectionTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +40,18 @@
 		C47CA8702786DAC1008917E0 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 		C47CA8792786E411008917E0 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
 		C47CA87B2786E429008917E0 /* ToDoItemTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItemTableViewController.swift; sourceTree = "<group>"; };
+		C4826D8527886205008A39C1 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		C4826D8827892E1B008A39C1 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		C4826D8A2789322F008A39C1 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		C4826D8C278D6DEF008A39C1 /* TextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCell.swift; sourceTree = "<group>"; };
+		C4826D8E278D7433008A39C1 /* SwitchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchCell.swift; sourceTree = "<group>"; };
+		C4826D90278D746E008A39C1 /* DateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateCell.swift; sourceTree = "<group>"; };
+		C4826D92278D749E008A39C1 /* DatePickerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerCell.swift; sourceTree = "<group>"; };
+		C4826D96278D7606008A39C1 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		C4826D9927901120008A39C1 /* SectionDatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionDatePicker.swift; sourceTree = "<group>"; };
+		C4826D9B27901235008A39C1 /* SectionImagePickerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionImagePickerController.swift; sourceTree = "<group>"; };
+		C4826D9D27901383008A39C1 /* SectionSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionSwitch.swift; sourceTree = "<group>"; };
+		C4826D9F2790142B008A39C1 /* SectionTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +85,12 @@
 			isa = PBXGroup;
 			children = (
 				C47CA8722786E02B008917E0 /* App */,
+				C4826D84278861C6008A39C1 /* Cells */,
+				C4826D8727892DF0008A39C1 /* Extensions */,
 				C47CA86F2786DA92008917E0 /* Models */,
 				C47CA85D2786DA37008917E0 /* SceneDelegate.swift */,
 				C47CA8732786E068008917E0 /* Storyboards */,
+				C4826D98278ED6E1008A39C1 /* View */,
 				C47CA8742786E08D008917E0 /* View Controllers */,
 			);
 			path = ToDoList;
@@ -103,6 +130,39 @@
 				C47CA87B2786E429008917E0 /* ToDoItemTableViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		C4826D84278861C6008A39C1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C4826D90278D746E008A39C1 /* DateCell.swift */,
+				C4826D92278D749E008A39C1 /* DatePickerCell.swift */,
+				C4826D96278D7606008A39C1 /* ImageCell.swift */,
+				C4826D8E278D7433008A39C1 /* SwitchCell.swift */,
+				C4826D8C278D6DEF008A39C1 /* TextFieldCell.swift */,
+				C4826D8527886205008A39C1 /* ToDoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		C4826D8727892DF0008A39C1 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C4826D8A2789322F008A39C1 /* Date+Extension.swift */,
+				C4826D8827892E1B008A39C1 /* String+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4826D98278ED6E1008A39C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4826D9927901120008A39C1 /* SectionDatePicker.swift */,
+				C4826D9B27901235008A39C1 /* SectionImagePickerController.swift */,
+				C4826D9D27901383008A39C1 /* SectionSwitch.swift */,
+				C4826D9F2790142B008A39C1 /* SectionTextField.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,10 +237,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C47CA85C2786DA37008917E0 /* AppDelegate.swift in Sources */,
+				C4826D91278D746E008A39C1 /* DateCell.swift in Sources */,
+				C4826D8927892E1B008A39C1 /* String+Extension.swift in Sources */,
+				C4826D8627886205008A39C1 /* ToDoCell.swift in Sources */,
 				C47CA85E2786DA37008917E0 /* SceneDelegate.swift in Sources */,
+				C4826DA02790142B008A39C1 /* SectionTextField.swift in Sources */,
+				C4826D9E27901383008A39C1 /* SectionSwitch.swift in Sources */,
 				C47CA87C2786E429008917E0 /* ToDoItemTableViewController.swift in Sources */,
+				C4826D9C27901235008A39C1 /* SectionImagePickerController.swift in Sources */,
+				C4826D8D278D6DEF008A39C1 /* TextFieldCell.swift in Sources */,
+				C4826D8B2789322F008A39C1 /* Date+Extension.swift in Sources */,
 				C47CA8712786DAC1008917E0 /* ToDo.swift in Sources */,
 				C47CA87A2786E411008917E0 /* ToDoTableViewController.swift in Sources */,
+				C4826D8F278D7433008A39C1 /* SwitchCell.swift in Sources */,
+				C4826D93278D749E008A39C1 /* DatePickerCell.swift in Sources */,
+				C4826D97278D7606008A39C1 /* ImageCell.swift in Sources */,
+				C4826D9A27901120008A39C1 /* SectionDatePicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,7 +409,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -366,7 +438,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
