@@ -41,13 +41,13 @@ extension ToDoItemTableViewController /*: UITableViewCell */ {
     }
 
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        let value = todo.values[indexPath.section]
+  //      let value = todo.values[indexPath.section]
         if let cell = tableView.cellForRow(at: indexPath) {
             return cell.isHidden ? 0 : UITableView.automaticDimension
         } else {
-            return /* value is Date && indexPath.row == 1 ? 0 : */ UITableView.automaticDimension // для учета случая когда ячейки за пределами tableView, всем ставим automaticDimension кроме случая когда показываем datePicker (тот дэйтпикер что за пределами вью делаем 0
+            return /* value is Date && indexPath.row == 1 ? 0 : */ UITableView.automaticDimension // для учета случая когда ячейки за пределами tableView, всем ставим automaticDimension кроме случая когда показываем datePicker (тот дэйтпикер что за пределами вью делаем 0)
                     
-    } // метод для размеров
+    }
 }
         
     
@@ -188,6 +188,17 @@ extension ToDoItemTableViewController {
     }
 }
 
-extension ToDoItemTableViewController: UIImagePickerControllerDelegate {}
+extension ToDoItemTableViewController: UIImagePickerControllerDelegate {
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        dismiss(animated: true)
+        guard let image = info[.originalImage] as? UIImage else {return}
+        guard let sectionPicker = picker as? SectionImagePickerController else {return} // номер секции
+        guard let section = sectionPicker.section else {return}
+        let key = todo.keys[section]
+        todo.setValue(image, forKey: key)
+        let indexPath = IndexPath(row: 0, section: section) // перезагрузка страницы
+        tableView.reloadRows(at: [indexPath], with: .automatic) // перезагрузка страницы
+    } // метод отрабатывающих выбор image
+}
 extension ToDoItemTableViewController: UINavigationControllerDelegate{}
 
